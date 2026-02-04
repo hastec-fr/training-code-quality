@@ -27,10 +27,8 @@ function avg(x, y) {
 }
 
 function eq(x, y) {
-	if (x == y) {
-		return true
-	}
-	return false
+	// prettier-ignore
+	return (x == y)
 }
 
 let x = min(1, 3)
