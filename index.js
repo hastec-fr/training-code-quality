@@ -16,10 +16,7 @@ function max(x, y) {
 }
 
 function eq(x, y) {
-	if (x == y) {
-		return true
-	}
-	return false
+	return x == y
 }
 
 let x = min(1, 3)
