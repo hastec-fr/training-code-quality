@@ -27,7 +27,10 @@ function avg(x, y) {
 }
 
 function eq(x, y) {
-	return x == y
+	if (x == y) {
+		return true
+	}
+	return false
 }
 
 let x = min(1, 3)
