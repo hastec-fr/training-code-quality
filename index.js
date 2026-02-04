@@ -21,6 +21,11 @@ function max(x, y) {
 	return x < y ? y : x
 }
 
+function avg(x, y) {
+	let avg
+	return x + y / 2
+}
+
 let x = min(1, 3)
 console.log('x=' + x)
 // console.log(myObj)
