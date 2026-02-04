@@ -26,8 +26,8 @@ function avg(x, y) {
 	return x + y / 2
 }
 
-function div(x, y) {
-	return x / y
+function eq(x, y) {
+	return x == y
 }
 
 let x = min(1, 3)
