@@ -15,6 +15,13 @@ function max(x, y) {
 	return x < y ? y : x
 }
 
+function eq(x, y) {
+	if (x == y) {
+		return true
+	}
+	return false
+}
+
 let x = min(1, 3)
 console.log('x=' + x)
 // console.log(myObj)
