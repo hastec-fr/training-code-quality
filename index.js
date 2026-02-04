@@ -1,9 +1,3 @@
-let var1
-let var2
-let var3
-let var4
-let var5
-
 let myObj = {
 	prop1: 'val1',
 	prop2: 'val2'
@@ -19,18 +13,6 @@ function min(x, y) {
 
 function max(x, y) {
 	return x < y ? y : x
-}
-
-function avg(x, y) {
-	let avg
-	return x + y / 2
-}
-
-function eq(x, y) {
-	if (x == y) {
-		return true
-	}
-	return false
 }
 
 let x = min(1, 3)
