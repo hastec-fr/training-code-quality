@@ -1,4 +1,5 @@
 let var1
+let var2
 
 let myObj = {
 	prop1: 'val1',
